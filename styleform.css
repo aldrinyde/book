@@ -1,0 +1,16 @@
+/* CONTENU */
+section
+{
+  text-align: center;
+}
+textarea
+{
+  width : 24em;
+  height : 12em;
+}
+ul
+{
+  list-style-type: none;
+  width: 300px;
+  margin: auto;
+}

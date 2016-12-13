@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleform.css" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <title>Aldrine Book : Contact</title>
+  </head>
+
+  <body>
+    <header>
+        <a href="index.html">ALDRINE BOOK</a>
+        <div class="menu">
+          <a href="galerie.html">Galerie</a>
+          <a href="mensurations.html">Mensurations</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <section class="banner">
+      <h1>ALDRINE BOOK</h1>
+      <h3>Contact<h3>
+    </section>
+    <section>
+      <p>Si vous souhaitez me laisser un message, c'est
+         ici, mais pour l'instant cette page est encore
+          en construction :)</p>
+      <form method="post" action="message.php">
+        <ul>
+          <li><label for="name">Votre nom</label><br /><input type="text" name="name" required /></li><br />
+          <li><label for="mail">Votre adresse mail</label><br /><input type="email" name="mail" required /></li><br />
+          <li><label for="object">Objet du message</label><br /><input type="text" name="object" required /></li><br />
+          <li><label for="message">Message</label><br /><textarea type="text" name="message"></textarea></li><br />
+          <li><div class="g-recaptcha" data-sitekey="6Lfl_SITAAAAAJ51N-GB9S98DYPW90pyHPLEKrwf"></div></li><br />
+          <li><input type="submit" value="Envoyer" /></li>
+        </ul>
+      </form>
+    </section>
+    <footer>
+      <p>Made with blood and tears by Aldrine.</p>
+    </footer>
+  </body>
+</html>

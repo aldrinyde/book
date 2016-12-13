@@ -1,0 +1,9 @@
+/* CONTENU */
+.text p
+{
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-weight: normal;
+  padding-top: 2em;
+}
